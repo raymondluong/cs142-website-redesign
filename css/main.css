@@ -1,0 +1,64 @@
+body {
+	font-family: Open Sans, Helvetica, sans-serif;
+	padding-top: 65px; /* prevent fixed navbar from covering content */
+}
+
+/* Helper classes */
+.text-smaller {
+	font-size: .75em;
+}
+
+.margin-v {
+	margin: 1em 0;
+}
+
+/* Navbar styling */
+.navbar {
+	background: #2980B9;
+	border: none;
+	box-sizing: content-box;
+	color: white;
+}
+
+.navbar a {
+	color: inherit;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li.nav-active	 {
+	background-color: #fff;
+	color: black;
+}
+
+.navbar .icon-bar {
+	background-color: #fff;
+}
+
+.staff-img {
+	height: 180px;
+	border: 1px solid black;
+}
+
+.staff-name {
+	font-weight: bold;
+}
+
+/* 	Responsive calendar embed
+	Source: Smashing Magazine */
+.calendar-container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.calendar-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+	padding: 25px;
+}

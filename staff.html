@@ -1,0 +1,36 @@
+---
+layout: default
+nav: Staff
+---
+
+<div class="container">
+  <h3>CS142 Course Staff</h3>
+  <p>For most issues, the best way to contact the course staff is to post a question on <a href="#">Piazza</a>. If you believe that Piazza is not the best way to resolve an issue, you can reach the CAs through the email alias <strong>"cs142-spr1516-staff@lists"</strong>. We prefer that you do not contact CAs individually unless it is part of an ongoing conversation; you will get a faster response by using Piazza or the group alias.</p> 
+  <div class="row">
+    {% for instructor in site.instructor %}
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 margin-v">
+      <img class="staff-img" src="images/{{ instructor.photo }}" />
+      <div class="staff-name">{{ instructor.name }}</div>
+      <div>Instructor</div>
+      <div>{{ instructor.email }}</div>
+    </div> 
+    {% endfor %}
+  </div>
+  <div class="row">
+    {% for ca in site.cas %}
+    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 margin-v">
+      <img class="staff-img" src="images/{{ ca.photo }}" />
+      <div class="staff-name">{{ ca.name }}</div>
+      <div>Course Assistant</div>
+      <div>{{ ca.email }}</div>
+    </div> 
+    {% endfor %}
+  </div>
+
+  <h3>Office Hours</h3> 
+  <p>The following calendar lists all of the lectures, discussion sections, office hours, exams, and project deadlines for the course. Note: the schedule of office hours may change from time to time, so be sure to check the calendar before going to an office hour. Mendel Rosenblum's office hours will always be in his office (Gates 309).</p>
+  <div class="calendar-container">
+    <iframe src="https://calendar.google.com/calendar/embed?src=1fjkpopvgph9no9a0g8no9gtec%40group.calendar.google.com&ctz=America/Los_Angeles" frameborder="0" scrolling="no"></iframe>
+  </div>
+
+</div>
