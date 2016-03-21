@@ -1,5 +1,6 @@
 # Site settings
 title: "CS142: Web Applications"
+description: "Web Applications course at Stanford University"
 
 # Build settings
 markdown: kramdown
@@ -17,12 +18,19 @@ navigation:
 - text: Staff
   url: /staff.html
 
-# Basic information for homepage
-basic:
+# General information for homepage
+general:
 - title: Lectures
   text: MWF 10:30-11:20am at 420-040
 - title: Instructor
   text: <a href="http://www.stanford.edu/~mendel/">Mendel Rosenblum</a>
+- title: Course Assistants
+  text: Shannon Kao 
+        <br> Raymond Luong
+        <br> Don Mai
+        <br> CA 4
+        <br> CA 5
+        <br> CA 6
 - title: Sections
   text: TBA
 - title: Midterm
@@ -31,30 +39,34 @@ basic:
   text: TBA
 - title: Contact Staff
   text: cs142-spr1516-staff@lists
+- title: Discussion Forum
+  text: <a href="http://piazza.com/">Class Piazza Link</a>
+- title: Office Hours
+  text: <a href="/staff.html#officehours">View Calendar</a>
 
 # Instructor details
 instructor:
 - name: Mendel Rosenblum
-  photo: mendel.jpg
+  photo: mr.jpg
   email: mendel@cs
 
 # Course Assistant details
 cas:
+- name: Shannon Kao
+  photo: shannon_kao.png
+  email: kaos@stanford
 - name: Raymond Luong
-  photo: raymond.png
-  email: rayluong@
-- name: Raymond Luong
-  photo: raymond.png
-  email: rayluong@
-- name: Raymond Luong
-  photo: raymond.png
-  email: rayluong@
-- name: Raymond Luong
-  photo: raymond.png
-  email: rayluong@
-- name: Raymond Luong
-  photo: raymond.png
-  email: rayluong@
-- name: Raymond Luong
-  photo: raymond.png
-  email: rayluong@
+  photo: raymond_luong.png
+  email: rayluong@stanford
+- name: Don Mai
+  photo: don_mai.png
+  email: donmai@stanford
+- name: CA 4
+  photo: tbd
+  email: tbd@stanford
+- name: CA 5
+  photo: tbd
+  email: tbd@stanford
+- name: CA 6
+  photo: tbd
+  email: tbd@stanford
