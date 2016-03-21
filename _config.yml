@@ -23,7 +23,7 @@ general:
 - title: Lectures
   text: MWF 10:30-11:20am at 420-040
 - title: Instructor
-  text: <a href="http://www.stanford.edu/~mendel/">Mendel Rosenblum</a>
+  text: <a href="http://www.stanford.edu/~mendel/" target="_blank">Mendel Rosenblum</a>
 - title: Course Assistants
   text: Shannon Kao 
         <br> Raymond Luong
@@ -47,7 +47,7 @@ general:
 # Instructor details
 instructor:
 - name: Mendel Rosenblum
-  photo: mr.jpg
+  photo: mendel_rosenblum.jpg
   email: mendel@cs
 
 # Course Assistant details

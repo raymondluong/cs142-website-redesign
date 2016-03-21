@@ -1,22 +1,30 @@
 ---
 layout: default
+title: "CS142: Web Applications"
 nav: Home
 ---
 
 <div class="container">
-  <h1>CS142: Web Applications</h1>
-  <h3>Course Description</h3>
-  <p>Although the World-Wide Web was initially conceived as a vehicle for delivering documents, it is now being used as a platform for sophisticated interactive applications, displacing the traditional mechanism of installable binaries. Web-based applications offer numerous advantages, such as instant access, automatic upgrades, and opportunities for collaboration on a massive scale. However, creating Web applications requires different approaches than traditional applications and involves the integration of numerous technologies. This class will introduce you to the Web technologies and give you experience creating Web applications. In the process you will learn about markup languages, scripting languages, network protocols, interactive graphics, event-driven programming, and databases, and see how they all work together to deliver exciting applications.</p> 
-  <h3>General Information</h3>
-  {% for item in site.general %}
-  <div class="row">
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-      <p>{{ item.title }}</p>
+  
+  <h1>{{ page.title }}</h1>
+
+  <section>
+    <h3 class="left-border">Course Description</h3>
+    <p>Although the World-Wide Web was initially conceived as a vehicle for delivering documents, it is now being used as a platform for sophisticated interactive applications, displacing the traditional mechanism of installable binaries. Web-based applications offer numerous advantages, such as instant access, automatic upgrades, and opportunities for collaboration on a massive scale. However, creating Web applications requires different approaches than traditional applications and involves the integration of numerous technologies. This class will introduce you to the Web technologies and give you experience creating Web applications. In the process you will learn about markup languages, scripting languages, network protocols, interactive graphics, event-driven programming, and databases, and see how they all work together to deliver exciting applications.</p> 
+  </section>
+
+  <section>
+    <h3 class="left-border">General Information</h3>
+    {% for item in site.general %}
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+        <p>{{ item.title }}</p>
+      </div> 
+      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+        <p>{{ item.text }}</p>
+      </div>
     </div> 
-    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-      <p>{{ item.text }}</p>
-    </div>
-  </div> 
-  {% endfor %}
+    {% endfor %}
+  </section>
 
 </div>

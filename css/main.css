@@ -3,6 +3,7 @@ body {
 	padding-top: 65px; /* prevent fixed navbar from covering content */
 }
 
+
 /* Helper classes */
 .text-smaller {
 	font-size: .75em;
@@ -10,6 +11,11 @@ body {
 
 .margin-v {
 	margin: 1em 0;
+}
+
+.left-border {
+	border-left: 3px solid #2980B9;
+	padding-left: 5px;
 }
 
 /* Navbar styling */
@@ -59,6 +65,7 @@ body {
     height: 100%;
 }
 
+/* Footer styling */
 footer {
 	padding: 25px;
 }
