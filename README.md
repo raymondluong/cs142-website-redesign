@@ -3,3 +3,10 @@
 Website redesign for CS142: Web Applications at Stanford University
 
 Built with Bootstrap and Jekyll
+
+Note: No longer being updated, moved to another private repo
+
+To run:
+* Clone repo
+* Install Jekyll
+* Run `jekyll serve` in the project directory on the command line
