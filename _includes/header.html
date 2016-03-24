@@ -21,7 +21,7 @@
               {% assign active = 'nav-active' %}
             {% endif %}
             <li class="{{ active }}">
-              <a href="./{{ nav.url }}">{{ nav.text }}</a> 
+              <a href="{{ nav.url }}">{{ nav.text }}</a> 
             </li>
           {% endfor %}
         </ul>

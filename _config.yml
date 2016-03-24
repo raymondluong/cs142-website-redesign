@@ -8,15 +8,15 @@ markdown: kramdown
 # Navigation settings
 navigation:
 - text: Home
-  url: 
+  url: /
 - text: Class Info
-  url: info.html
+  url: /info.html
 - text: Lectures
-  url: lectures.html
+  url: /lectures.html
 - text: Projects
-  url: projects.html
+  url: /projects.html
 - text: Staff
-  url: staff.html
+  url: /staff.html
 
 # General information for homepage
 general:
