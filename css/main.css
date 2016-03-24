@@ -2,12 +2,7 @@ body {
 	font-family: Open Sans, Helvetica, sans-serif;
 }
 
-
 /* Helper classes */
-.text-smaller {
-	font-size: .75em;
-}
-
 .margin-v {
 	margin: 1em 0;
 }
@@ -20,9 +15,10 @@ body {
 /* Navbar styling */
 .navbar {
 	background: #2980B9;
+	color: #fff;
+	/* override bootstrap */
 	border: none;
-	box-sizing: content-box;
-	color: white;
+	border-radius: 0;
 }
 
 .navbar a {
@@ -31,20 +27,17 @@ body {
 
 .navbar-nav > li > a:hover, .navbar-nav > li.nav-active	 {
 	background-color: #fff;
-	color: black;
+	color: #000;
 }
 
 .navbar .icon-bar {
 	background-color: #fff;
 }
 
+/* Staff page styling */
+
 .staff-img {
 	height: 180px;
-	/*border: 1px solid black;*/
-}
-
-.staff-name {
-	font-weight: bold;
 }
 
 /* 	Responsive calendar embed

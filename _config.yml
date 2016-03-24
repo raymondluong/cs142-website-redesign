@@ -8,15 +8,15 @@ markdown: kramdown
 # Navigation settings
 navigation:
 - text: Home
-  url: /
+  url: 
 - text: Class Info
-  url: /info.html
+  url: info.html
 - text: Lectures
-  url: /lectures.html
+  url: lectures.html
 - text: Projects
-  url: /projects.html
+  url: projects.html
 - text: Staff
-  url: /staff.html
+  url: staff.html
 
 # General information for homepage
 general:
@@ -70,3 +70,175 @@ cas:
 - name: CA 6
   photo: tbd
   email: tbd@stanford
+
+# Lecture Details
+lectures:
+- week: 1
+  days:
+    - day: Monday, March 28
+      title: Introduction
+      slides:
+        - name: HTML
+          url: HTML.pdf
+        - name: CSS
+          url: CSS.pdf
+    - day: Wednesday, March 30
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Friday, April 1
+      title: Title
+      slides:
+        - name:
+          url:
+- week: 2
+  days:
+    - day: Monday, April 4
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Wednesday, April 6
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Friday, April 8
+      title: Title
+      slides:
+        - name:
+          url:
+- week: 3
+  days:
+    - day: Monday, April 11
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Wednesday, April 13
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Friday, April 15
+      title: Title
+      slides:
+        - name:
+          url:
+- week: 4
+  days:
+    - day: Monday, April 18
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Wednesday, April 20
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Friday, April 22
+      title: Title
+      slides:
+        - name:
+          url:
+- week: 5
+  days:
+    - day: Monday, April 25
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Wednesday, April 27
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Friday, April 29
+      title: Title
+      slides:
+        - name:
+          url:
+- week: 6
+  days:
+    - day: Monday, May 2
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Wednesday, May 4
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Friday, May 6
+      title: Title
+      slides:
+        - name:
+          url:
+- week: 7
+  days:
+    - day: Monday, May 9
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Wednesday, May 11
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Friday, May 13
+      title: Title
+      slides:
+        - name:
+          url:
+- week: 8
+  days:
+    - day: Monday, May 16
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Wednesday, May 18
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Friday, May 20
+      title: Title
+      slides:
+        - name:
+          url:
+- week: 9
+  days:
+    - day: Monday, May 23
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Wednesday, May 25
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Friday, Mah 27
+      title: Title
+      slides:
+        - name:
+          url:
+- week: 10
+  days:
+    - day: Monday, May 30
+      title: Memorial Day - No Class
+    - day: Wednesday, June 1
+      title: Title
+      slides:
+        - name:
+          url:
+    - day: Friday, June 3
+      title: Title
+      slides:
+        - name:
+          url:
