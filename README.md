@@ -2,4 +2,4 @@
 
 Website redesign for CS142: Web Applications at Stanford University
 
-Tools used: Bootstrap, Font Awesome, Jekyll
+Built with Bootstrap and Jekyll
