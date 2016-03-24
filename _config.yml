@@ -248,24 +248,32 @@ projects:
   - number: 1
     name: "Project #1: HTML and CSS"
     due: 4/7/2016 at 11:59PM
+    url: /project1.html
   - number: 2
     name: "Project #2: JavaScript Calisthenics"
     due: 4/14/2016 at 11:59PM
+    url: /project2.html
   - number: 3
     name: "Project #3: JavaScript and the DOM"
     due: 4/21/2016 at 11:59PM
+    url: /project3.html
   - number: 4
     name: "Project #4: Page Generation with AngularJS"
     due: 4/28/2016 at 11:59PM
+    url: /project4.html
   - number: 5
     name: "Project #5: Single Page Applications"
     due: 5/12/2016 at 11:59PM
+    url: /project5.html
   - number: 6
     name: "Project #6: Appserver and Database"
     due: 5/19/2016 at 11:59PM
+    url: /project6.html
   - number: 7
     name: "Project #7: Sessions and Input"
     due: 5/26/2016 at 11:59PM
+    url: /project7.html
   - number: 8
     name: "Project #8: Photo App Sprint"
     due: 6/2/2016 at 11:59PM
+    url: https://docs.google.com/document/d/1DQXRwc8mmjGhH1Hqz7-e6MZ7rLDeVbzKenZ3HbKLHwM/edit?usp=sharing

@@ -17,7 +17,7 @@ nav: Projects
     {% for project in site.projects %}
     <div class="col-lg-6 col-md-6 col-sm-6">
       <h4 class="left-border">{{ project.name }}</h4>
-      <a href="project{{ project.number }}.html">Project details</a>
+      <a href="{{ project.url }}">Project details</a>
       <h5>Due: {{ project.due }}</h5>
     </div>
     {% endfor %}
