@@ -1,0 +1,54 @@
+---
+layout: default
+title: Installing MEAN Software
+nav: Projects
+---
+
+<div class="container">
+  <h1>{{ page.title }}</h1>
+  <p>
+  The programming projects for this class require you to install Node.js and MongoDB.
+  If you don't already have these packages installed on your laptop,
+  follow the instructions below to install them.
+  </p>
+  <h3 class="left-border">Installing Node.js</h3>
+  <p>
+  Install the latest "Mature and Dependable" version of Node.js (currently version 4.2.2).
+  It can be downlaoded from the URL
+  <a href="https://nodejs.org/en/download">https://nodejs.org/en/download</a>.
+  To verify you have Node.js and its package manager (npm), try running the commands:
+  <div class="code">
+    <pre>node -v</pre>
+  </div>
+  and:
+  <div class="code">
+    <pre>npm -v</pre>
+  </div>
+  which should run and print out the version numbers of your node and npm programs.
+  </p>
+  <h3 class="left-border">Installing MongoDB</h3>
+  <p>
+  Install the current stable release of MongoDB from the website
+  <a href="https://www.mongodb.org/downloads#production">https://www.mongodb.org/downloads#production</a>.
+  Unless you direct it otherwise, MongoDB will store the database in the directory <code>/data/db</code>
+  (<code>C:\data\db</code> on Windows). Make sure this directory exists and is writable by you before
+  starting the database.
+  </p>
+  <p>
+  To verify you have MongoDB installed and working try starting it with the command:
+  <div class="code">
+    <pre>mongod</pre>
+  </div>
+  This should print a bunch of log messages including one saying
+  <code>"waiting for connections on port 27017"</code>. The <code>mongod</code> doesn't exit until
+  the database is shut down so you will want to either run this in its own window or in background.
+  </p>
+  <p>
+  You should be able to directly interact with the MongoDB database by running the command:
+  <div class="code">
+    <pre>mongo</pre>
+  </div>
+  Type help at the command prompt to see the available commands.
+  </p>
+
+</div>

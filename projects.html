@@ -1,0 +1,26 @@
+---
+layout: default
+title: CS142 Projects
+nav: Projects
+---
+
+<div class="container">
+  <h1>{{ page.title }}</h1>
+  <p>
+    Important links: <a href="submit.html">Submit Instructions</a> | <a href="install.html">MEAN Stack Installation Instructions</a> 
+  </p>
+  <p>
+    Note: The assignments in the second half of the quarter are more time-intensive than the assignments in the first half of the quarter. Use your <a href="info.html#late-days">late days</a> wisely.
+  </p>
+
+  <div class="row">
+    {% for project in site.projects %}
+    <div class="col-lg-6 col-md-6 col-sm-6">
+      <h4 class="left-border">{{ project.name }}</h4>
+      <a href="project{{ project.number }}.html">Project details</a>
+      <h5>Due: {{ project.due }}</h5>
+    </div>
+    {% endfor %}
+  </div>
+
+</div>

@@ -1,0 +1,124 @@
+---
+layout: default
+title: Submit
+nav: Projects
+---
+
+<div class="container">
+  <h1>Submitting Class Assignments</h1>
+  <h3 class="left-border">Cleaning up before submitting</h3>
+  <p>
+    Please delete any unnecessary files from your directory before submitting.
+    After cleaning up, it's a good idea to run a quick check just to make
+    sure that your application still works.
+  </p>
+  <h3 class="left-border">Submitting</h3>
+  <p>
+    Use an SSH client to connect to a
+    <a href="https://uit.stanford.edu/service/sharedcomputing" target="_blank">FarmShare</a> machine
+    (e.g. cardinal.stanford.edu, myth.stanford.edu, corn.stanford.edu).
+    Upload your files to some directory in your AFS space (i.e. your home directory). You should use
+    a separate directory for each project.
+    The submit script sends all files in the current directory.
+  </p>
+  <p>
+    If you haven't uploaded files to a FarmShare machine before, you may
+    want to install one of several programs to help with this. If your
+    laptop runs MacOS, we recommend 
+    <a href="https://uit.stanford.edu/service/ess/mac/fetch" target="_blank">Fetch</a>, Filezilla or scp.  
+    If your laptop runs Windows, we recommend <a href="https://uit.stanford.edu/service/ess/pc/securefx" target="_blank">SecureFX</a> or WinSCP.
+  </p>
+  <p>
+    <strong>Note: For projects 4 and later, you will need to submit your <em>entire</em> working directory because
+    there are hidden files used to run your project. Do not manually upload individual files. 
+    We highly recommend taking the time during projects 1 to 3 to get used to uploading entire directories to your AFS space. Please contact the staff if you need assistance with this.</strong>
+  <p>
+  In addition to including any deliverables required by the project
+  instructions, you should include a file called <code>ID</code> 
+  that includes your SUID, your leland username, and
+  your full name (last-name-comma-first-name). For example:
+  </p>
+  <div class="code">
+    <pre>052340342 gluu Luu, Gary</pre>
+  </div>
+
+  <p>
+  From your project directory, type "/usr/class/cs142/bin/submit" and 
+  answer the prompts.
+  When prompted "Which assignment are you submitting?" enter the project
+  number, e.g. <code>1</code> for Project 1. 
+  </p>
+
+  <p>
+    You may submit multiple times. Your last submission is the one we'll
+    count, as well as any late days used for that last submission.
+    Note: if you are planning to use late days for an assignment, and you
+    have already submitted before the due date, please make sure your
+    most recent submission contains a file <code>late</code>, which should
+    contain a note stating that you will be using late days for this
+    assignment. Otherwise we may grade the assignment you have already
+    submitted.
+  </p>
+
+  <p>
+    Here is an example submission of project 1 (all projects for
+    this class are individual, so you should always answer "n" to
+    the question about working with a partner):
+  </p>
+
+  <div>
+    <pre>corn22:~/project1> /usr/class/cs142/bin/submit
+
+The script is used for electronic submissions for CS142.
+[If you're having trouble, try running it on the corns.]
+
+Submitting assignment for leland user: gluu
+
+What is your real name?
+=> Gary Luu
+
+If you worked on this assignment with a partner, we expect the team
+to submit one version, giving both names so we can properly credit it.
+
+Did you work on this assignment with a partner? (y/n)
+=> n
+
+Which assignment are you submitting?
+=> 1
+
+Directory where your assignment lives? (relative paths are ok)
+=> .
+
+Looking for an ID file in your project directory...OK
+
+Checking to make sure the project directory is clean...OK
+
+Checking the size...OK
+
+It is currently 01/09/09 11:06:07 AM
+Checking on asssignment due date....on-time!
+
+SUBMIT SUCCESS!
+Gary Luu (gluu) submitted 1.</pre>
+  </div>
+
+  <h3 class="left-border">Checking your submission</h3>
+  <p>
+    Once you have gone through the submission process, you can check to make
+    sure your submission was received. To do this, enter a command like
+    the following on the machine where you submitted your assignment:
+  </p>
+  <div>
+    <pre>ls -l /usr/class/cs142/submissions/<i>number</i>/$USER-*</pre>
+  </div>
+  <p>
+    (Replace <code><i>number</i></code> with the assignment number). This
+    will list all of the
+    files that you submitted. You should be able to examine the individual files
+    as well, if you wish. This mechanism should only allow you to view your own
+    submissions; if for some reason you discover you can see submissions from
+    other students, please let us know, since it means we have misconfigured
+    the class site!
+  </p>
+
+</div>

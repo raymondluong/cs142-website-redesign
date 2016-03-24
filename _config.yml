@@ -76,7 +76,7 @@ lectures:
 - week: 1
   days:
     - day: Monday, March 28
-      title: Introduction
+      title: Introduction, Course Organization
       slides:
         - name: HTML
           url: HTML.pdf
@@ -242,3 +242,30 @@ lectures:
       slides:
         - name:
           url:
+
+# Projects
+projects:
+  - number: 1
+    name: "Project #1: HTML and CSS"
+    due: 4/7/2016 at 11:59PM
+  - number: 2
+    name: "Project #2: JavaScript Calisthenics"
+    due: 4/14/2016 at 11:59PM
+  - number: 3
+    name: "Project #3: JavaScript and the DOM"
+    due: 4/21/2016 at 11:59PM
+  - number: 4
+    name: "Project #4: Page Generation with AngularJS"
+    due: 4/28/2016 at 11:59PM
+  - number: 5
+    name: "Project #5: Single Page Applications"
+    due: 5/12/2016 at 11:59PM
+  - number: 6
+    name: "Project #6: Appserver and Database"
+    due: 5/19/2016 at 11:59PM
+  - number: 7
+    name: "Project #7: Sessions and Input"
+    due: 5/26/2016 at 11:59PM
+  - number: 8
+    name: "Project #8: Photo App Sprint"
+    due: 6/2/2016 at 11:59PM
