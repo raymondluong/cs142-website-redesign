@@ -10,4 +10,4 @@ To run:
 * Clone repo
 * Install Jekyll
 * Run `jekyll serve` in the project directory on the command line
-* Open http://localhost:4000/ to view the website
+* Open (http://localhost:4000/) to view the website
